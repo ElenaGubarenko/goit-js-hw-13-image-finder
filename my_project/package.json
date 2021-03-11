@@ -1,5 +1,5 @@
 {
-  "name": "webpack-starter-kit",
+  "name": "my_project",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/webpack-starter-kit.git"
+    "url": "https://github.com/ElenaGubarenko/goit-js-hw-13-image-finder/tree/main/my_project/src/images"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Elena Gubarenko <lenagritsishina@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
+    "url": "https://github.com/ElenaGubarenko/goit-js-hw-13-image-finder/tree/main/my_project/src/images"
   },
-  "homepage": "https://github.com/luxplanjay/webpack-starter-kit#readme",
+  "homepage": "https://github.com/ElenaGubarenko/goit-js-hw-13-image-finder/tree/main/my_project/src/images",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
