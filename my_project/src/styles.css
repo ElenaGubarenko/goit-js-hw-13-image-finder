@@ -1,0 +1,17 @@
+.img-card {
+  list-style: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-img {
+  width: 30%;
+  height: 30%;
+}
+
+.photo-card {
+  display: flex;
+}
