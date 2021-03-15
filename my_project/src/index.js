@@ -11,6 +11,7 @@ const targetRef = document.querySelector('.target');
 const lightboxContentRef = document.querySelector('.lightbox-content');
 const lightboxOverlayRef = document.querySelector('.lightbox-overlay');
 const lightboxRef = document.querySelector('.lightbox');
+const buttonUpRef = document.querySelector('.button-up');
 let inputRequest = '';
 
 const fetchData = () => {
@@ -74,6 +75,14 @@ const closeModal = event => {
   lightboxRef.classList.toggle('is-open');
 };
 
+const goUp = () => {
+  window.scrollTo({
+    top: 0,
+    right: 0,
+    behavior: 'smooth',
+  });
+};
+
 obsereverFunc();
 
 const debouncedСheck = _debounce(check, 700);
@@ -82,3 +91,4 @@ inputRef.addEventListener('input', debouncedСheck);
 galleryRef.addEventListener('click', openModal);
 window.addEventListener('keyup', modalCloseByEsc);
 lightboxOverlayRef.addEventListener('click', closeModal);
+buttonUpRef.addEventListener('click', goUp);
