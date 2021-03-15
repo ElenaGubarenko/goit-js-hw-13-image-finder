@@ -1,5 +1,6 @@
 .img-card {
   list-style: none;
+  /* display: inline-block; */
 }
 
 .gallery {
@@ -14,4 +15,14 @@
 
 .photo-card {
   display: flex;
+}
+
+.material-icons {
+  color: rgb(96, 96, 236);
+}
+
+.search-form-input {
+  width: 500px;
+  height: 40px;
+  font-size: 30px;
 }
