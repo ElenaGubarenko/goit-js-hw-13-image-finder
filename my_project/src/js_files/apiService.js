@@ -1,5 +1,5 @@
 const BASE_URL =
-  'https://pixabay.com/api/?key=20622592-50ccb321bb66e8f51c2ed20b3&image_type=photo&orientation=horizontal&per_page=3';
+  'https://pixabay.com/api/?key=20622592-50ccb321bb66e8f51c2ed20b3&image_type=photo&orientation=horizontal&per_page=12';
 
 export default class ImagePage {
   constructor() {
