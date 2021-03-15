@@ -12,13 +12,17 @@
 }
 
 .img-card {
-  flex-basis: calc(100% / 4 -80px);
+  flex-basis: calc(100% / 4 -45px);
   list-style: none;
   margin: 15px 15px 0 15px;
 
   padding: 0;
   display: flex;
   flex-direction: column;
+}
+
+.img-card:hover {
+  cursor: pointer;
 }
 
 .photo-card {
@@ -67,7 +71,7 @@
 .search-form-input {
   width: 500px;
   height: 40px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .lightbox {
@@ -113,6 +117,27 @@
   height: auto;
   max-height: 100vh;
   max-width: 100vw;
+}
+
+.modal-close {
+  position: absolute;
+  position: fixed;
+  top: 10%;
+  right: 10%;
+
+  background-color: rgba(96, 96, 236, 0.24);
+  color: white;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: none;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  cursor: pointer;
+  background-color: rgb(96, 96, 236);
 }
 
 .button-up {

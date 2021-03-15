@@ -12,6 +12,7 @@ const lightboxContentRef = document.querySelector('.lightbox-content');
 const lightboxOverlayRef = document.querySelector('.lightbox-overlay');
 const lightboxRef = document.querySelector('.lightbox');
 const buttonUpRef = document.querySelector('.button-up');
+const modalCloseRef = document.querySelector('.modal-close');
 let inputRequest = '';
 
 const fetchData = () => {
@@ -85,3 +86,4 @@ galleryRef.addEventListener('click', openModal);
 window.addEventListener('keyup', modalCloseByEsc);
 lightboxOverlayRef.addEventListener('click', closeModal);
 buttonUpRef.addEventListener('click', goUp);
+modalCloseRef.addEventListener('click', closeModal);
