@@ -50,20 +50,13 @@ const obsereverFunc = () => {
 };
 
 const openModal = event => {
-  if (event) {
+  console.dir(event);
+  const dataSourse = event.target.dataset.sourse;
+  const alt = event.target.alt;
+  if (event.target.src) {
     lightboxRef.classList.toggle('is-open');
+    lightboxContentRef.innerHTML = `<img class="big-img" src="${dataSourse}" alt="${alt}"/>`;
   }
-  // return fetchData().then(answer => {
-  //   answer.map(element => {
-  //     console.log(`fetched ${element.webformatURL}`);
-  //     console.log(`evented ${event.target.src}`);
-  //   });
-  // });
-  // .then(console.log);
-
-  // if (event.target.src) {
-  // }
-  // console.dir(event.target);
 };
 
 const modalCloseByEsc = event => {
